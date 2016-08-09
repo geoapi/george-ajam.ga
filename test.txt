@@ -1,10 +1,4 @@
-Effective management of API documentation, a systematic literature review
-
-
-
-
-
-
+Effective Management of API Documentation, a Systematic Literature Review
 
  
 1.	INTRODUCTION
@@ -24,7 +18,7 @@ A Systematic literature review (SLR) attempts to investigate specific research q
 
 
 
-Table 1. Search Terms Combination used in SLR study
+Table 1: Search Terms Combination used in SLR study
  
 
 
@@ -34,14 +28,15 @@ Guidelines are followed from two main references [Kitchenham 2007] and [Okoli 20
 2.1. Search Procedure
 The search process carried on two phases, the first phase carried between [Dec 2015- Feb 2016], targeted three key databases: IEEExplore [IEEE 2015], The ACM Digital Library [ACM 2015], Google Scholar Web Search Engine [Scholar 2015]. In each database, 30 queries were carried out based on the terms specified in table 1.
 The second phase handled manual search for key journals in computer science, in addition to the journals, snowballing research works from existing papers references were also included and also suggested papers by experts.
-The total number of resulting papers is 972 unique results refined from 79 duplicates. Both title and abstract of each result were examined by reviewers and classified as either included or excluded from the study. The exclusion criterion is any study that doesn’t include an explicit or implicit link to APIs, libraries or Software documentation and their related knowledge areas. Research attempts to improve code search or comprehension without relation or links to APIs/Software documentation were also excluded from results.
+The total number of resulting papers is 972 unique results refined from 79 duplicates. Both title and abstract of each result were examined by two reviewers with an inter-rater agreement 88%. Then result classified as either included or excluded from the study, dissolving disagreements by discussion and reviewing papers. 
+The exclusion criterion is any study that doesn’t include an explicit or implicit link to APIs, libraries or Software documentation and their related knowledge areas (e.g. code examples, summarisation for code or explanations and their role in APIs understanding).  Research attempts to improve code search or comprehension without relation or links to APIs/Software documentation were also excluded from results.
 The following questions formed the inclusion criteria’s:
 (1)	Does the study include explicit or implicit link to APIs, libraries or software documentation?
 (2)	Does the study have an application in API documentation or any investigation on its issues or learnability?
 (3)	Does the study have an automated documentation or human-assisted processing for generating API documentation?
 Screening process then followed by gathering all references of the retained 186 included papers.
 
-Table 2. Databases of search and Journals with inclusion numbers of included papers
+Table 2: Search of databases and Journals with inclusion numbers of included papers
  #	Search	Total Records	# of yes
 1	IEEE Xplore Digital Library	264	110
 2	ACM Digital Library	216	81
@@ -56,7 +51,7 @@ Duplicates	79
 Final Included papers	186
 
 2.2. Analysis Procedure
-As explained in the search process, the resulted papers included are 186 study, it is important to note that non-English studies were discarded, as some of them had only an abstract in English while the full text was only available in another language. We obtained for each retained study the full text with citation information. The first step in the analysis was preparing a data extraction form. We adapted from [Petticrew 2008], and our form is available online [goo.gl/Bn3nDv]. The form mainly asks the following questions:
+As explained in the search process, the resulted papers included are 186 studies, it is important to note that non-English studies were discarded, as some of them had only an abstract in English while the full text was only available in another language. We obtained for each retained study the full text with citation information. The first step in the analysis was preparing a data extraction form. We adapted from [Petticrew 2008], and our form is available online [goo.gl/Bn3nDv]. The form main questions are the following:
 (1)	What is (are) the problem[s] being considered?
 (2)	What is the objective of the study?
 (3)	What is (are) the methodology(ies) conducted in the study?
@@ -65,6 +60,10 @@ All examination was carried out by the same examiner, making use of the question
 Finally, a qualitative research methodology used to analyse the studies and provide a thematic network among them. Guidelines of performing thematic analysis [Cruzes 2011] allowed studies to be reported in themes rather than groups of similar works. The model of the high-order themes was assessed to ensure its generalization, uniqueness and trustworthiness based on the synthesis.
 The discovery of the high-order themes included several iteration leading to changes according to the codes of the content analysed from the studies. The authors discussed the changes to insure they are representative.
 2.3. Limitations
+
+
+
+
 
 
 
@@ -128,9 +127,16 @@ Figure (5-3): Providing knowledge / Usage basic themes and relevant codes
  
 Figure (5-4): Providing knowledge: Association / confederation relevant codes
 
-
+ 
 4.	ANALYSIS
+
+
+
+
+
 5.	DISCUSSION
+ 
+
 6.	REFERENCES
 [Petticrew 2008] Mark Petticrew, Helen Roberts. “Systematic Reviews in the social sciences: A practice Guide”, Wiley Online Library Book, DOI: 10.1002/978047754887., Appendix 4.
 [Cruzes 2011] Cruzes, Daniela S., and Tore Dyba. "Recommended steps for thematic synthesis in software engineering." 2011 International Symposium on Empirical Software Engineering and Measurement. IEEE, 2011. http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6092576
