@@ -15,6 +15,16 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+  
+  FB.api(
+    "/501530149906667/posts",
+    function (response) {
+      if (response && !response.error) {
+        /* handle the result */
+   consol.log(response)
+      }
+    }
+);
 </script>
 </header>
 <body>
@@ -25,19 +35,6 @@
   data-width="450"
   data-show-faces="true">
 </div>
-
-  <script>
-  /* make the API call */
-FB.api(
-    "/501530149906667/posts",
-    function (response) {
-      if (response && !response.error) {
-        /* handle the result */
-   consol.log(response)
-      }
-    }
-);
-    </script>
 </body>
 
 </html>
